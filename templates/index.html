@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Ford Data Center</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
+
+    </head>
+
+    <body>
+
+        <div class="page-header">
+            <div class="box-1-index">
+                <h1>Advanced Polymer Technologies Data Center</h1>
+            </div>
+
+        <div class="nav-panel-index">
+            <ul>
+                <li>
+                    <a href="{{ url_for('database_retrieve')}}">Export Data</a>
+                </li>
+            </ul>
+        </div>
+            
+        <div class="nav-panel-index">
+            <ul>
+                <li>
+                    <a href="{{ url_for('importing')}}">Import Data</a>
+                </li>
+            </ul>
+        </div>
+            
+        <div class="nav-panel-index">
+            <ul>
+                <li>
+                    <a href="#">Data Visualizations</a>
+                </li>
+            </ul>
+        </div>
+
+        </div><!--container ends here-->
+    </body>
+</html>

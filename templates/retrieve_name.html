@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Ford Data Center</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/style.css') }}" />
+
+    </head>
+
+    <body>
+
+        <div class="page-header">
+            <div class="box-1-db">
+                <h1>Advanced Polymer Technologies Data Center</h1>
+                <h2>Export Data</h2>
+            </div>
+        
+        <div class="instructions-db">
+            <div class="box-2-db">
+                <h3>Instructions</h3>
+                <p>
+                    Please enter your sample name into the search box below and click "get my data." Your sample test results will be displayed in a table in a new tab.
+                </p>
+            </div>   
+        </div>
+
+        <form class="my-form", method="POST">
+            <div class="form-group">
+                <label>Sample Name: </label>
+                <input type="text" name="sample_name">
+            </div>
+            <input class="button" type="submit" value="get my data" name="", onclick="window.open('return_data','_blank')">
+        </form>
+
+        </div><!--container ends here-->
+
+    </body>
+
+</html>
